@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2B2B2B;
+}
+
+h1,
+h2,
+p,
+a,
+li {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+.header{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 33px 20px;
+  justify-content: space-between;
+
+}
+.header ul{
+  display: flex;
+  gap:30px;
+  align-items: center;
+}
+
+.intro {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.sing-up{
+  font-size: 18px;
+  color: white;
+}
+.long-in{
+padding: 9px 60px;
+  font-size: 18px;
+  color: #333;
+  background: #BFAFF2;
+  border-radius: 15px;
+}
+
+
+
+.intro-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 77px 20px;
+}
+
+.intro-info {
+  flex: 1;
+  flex-basis: 457px;
+
+
+}
+
+.intro-info h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 90px;
+  color: white;
+  margin-top: 27px;
+}
+
+.intro-info p {
+  font-size: 18px;
+  line-height: 32px;
+
+  margin-top: 40px;
+  color: white;
+  opacity: 0.4;
+
+}
+
+.intro-info a {
+  padding: 9px 37px;
+  background: #F8D57E;
+  border-radius: 15px;
+  margin-top: 72px;
+  display: inline-block;
+  color: #333333;
+}
+
+.intro-img-bg {
+  flex-grow: 1;
+  border-radius: 15px;
+  background: #333333
+}
+
+.logos-ativo {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 66px 20px;
+  border-top: 1px solid rgba(225, 225, 225, .2);
+  border-bottom: 1px solid rgba(225, 225, 225, .2);
+  margin-bottom: 100px;
+}
+
+.print {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.print-bg {
+  display: flex;
+  background: #fdf5df;
+  border-radius: 15px;
+  margin: 0 20px;
+  margin-bottom: 100px;
+}
+
+.vantagens {
+  max-width: 1280px;
+  margin: 50px auto;
+  padding: 50px 0;
+}
+
+.vantagens-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.vantagens-info {
+  flex: 1
+}
+
+.vantagens-info h2 {
+  color: white;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.vantagens-info p {
+  color: white;
+  opacity: 0.4;
+}
+
+.comentario {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.comentario-container {
+  background: #BFAFF2;
+  padding: 83px 350px;
+  border-radius: 15px;
+  margin: 30px 20px;
+}
+
+.comentario-container img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+
+}
+
+.comentario-perfil {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.comentario-user {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.vantagens-info img {
+  width: 70px;
+  height: 70px;
+}
+
+.conversar {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.conversar-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 20px;
+
+}
+
+.conversar-info {
+  flex-grow: 1;
+}
+
+
+
+.conversar-info h1 {
+  color: white;
+  line-height: 90px;
+  font-size: 60px;
+}
+
+.conversar-info p {
+  color: white;
+  line-height: 32px;
+  opacity: 0.4;
+  margin-top: 30px;
+}
+
+.conversar-info a {
+  padding: 9px 37px;
+  background: #F8D57E;
+  border-radius: 15px;
+  margin-top: 72px;
+  display: inline-block;
+  color: #333333;
+}
+
+.footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(225, 225, 225, .2);
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 20px;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  color: white;
+}
+.js .js_animacao {
+  opacity: 0;
+  transform: translate3d(-30px ,0 , 0);
+}
+
+.js .js_animacao.ativo{
+  opacity: 1;
+  transition:  .3s;
+  transform: translate3d(0 ,0 , 0);
+}
+
+
+
+
+
+@media(max-width: 810px) {
+  body {
+    text-align: center;
+  }
+
+  .comentario-container {
+    padding: 80px 30px;
+  }
+
+  .comentario-perfil {
+    justify-content: center;
+  }
+
+  .conversar-container {
+    justify-content: center;
+  }
+
+  .conversar-info a {
+    margin-bottom: 60px;
+  }
+}
+
+@media(max-width:375px) {
+  .intro {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .intro-info h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .intro-info p {
+    width: 335px;
+  }
+}
